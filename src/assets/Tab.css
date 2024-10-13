@@ -1,0 +1,22 @@
+#tabs {
+  /* max-width: 32rem; */
+  /* margin: 1rem auto; */
+  overflow: hidden;
+}
+
+#tabs menu {
+  display: flex;
+  float: left;
+  flex-direction: column;
+  height: 606px;
+
+  background-color: white;
+  margin-top: 177px;
+}
+
+.Active {
+  border-left: 4px solid black;
+  padding-left: 50px;
+  position: relative;
+  color: black;
+}

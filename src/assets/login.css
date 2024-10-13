@@ -1,0 +1,32 @@
+.container {
+  width: 397px;
+  border: 2px solid white;
+
+  /* background-color: white; */
+  border-radius: 29px;
+
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5); /* Shadow effect */
+  position: absolute;
+  top: 22%;
+  left: 42%;
+}
+.container > h2 {
+  text-align: center;
+}
+.btn.btn-primary {
+  width: 50%;
+  border-radius: 17px;
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-left: 70px;
+}
+
+.fp > a {
+  float: right;
+}
+.form-group {
+  margin-top: 34px;
+}
+.error-text {
+  color: red;
+}
